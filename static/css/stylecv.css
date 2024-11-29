@@ -1,0 +1,49 @@
+.card-img-top {
+    display: block;            /* Asegura que la imagen sea un bloque */
+    margin-left: auto;         /* Centra la imagen horizontalmente */
+    margin-right: auto;        /* Centra la imagen horizontalmente */
+    margin-top: 20px;          /* Espacio superior de 20px (puedes ajustar el valor) */
+    width: 200px;              /* Tamaño de la imagen */
+    height: 200px;             /* Tamaño de la imagen */
+    object-fit: cover;         /* Mantiene la proporción de la imagen */
+}
+
+
+/* Cambiar el color de fondo del encabezado */
+.table th {
+    background-color: #ec1d7e !important; /* Magenta fuerte */
+    color: white !important; /* Texto blanco */
+}
+
+
+.navbar-magenta {
+        background-color: #fa8bbf; /* Magenta (puedes cambiar este código para otros tonos) */
+    }
+
+
+
+.navbar-toggler {
+    background-color: rgb(245, 163, 224); /* Fondo rosa para que destaque */
+    border: none; /*Elimina el borde */
+}
+
+
+
+    /*Estilos para las opciones del menú al pasar el cursor */
+    .nav-link {
+    transition: background-color 0.3s, color 0.3s; /* Añade una transición  */
+    }
+
+    /* Estilos para las opciones del menú al pasar el cursor */
+    .nav-link {
+        transition: color 0.3s ease; /* Transición suave para el color del texto */
+        color: #fff; /* Color blanco para las opciones por defecto */
+    }
+
+    .nav-link:hover {
+        color: #ec1d7e; /* Magenta fuerte cuando el cursor pasa sobre la opción */
+    }
+
+    .footercolor{
+        background-color: #ec1d7e;
+    }

@@ -1,0 +1,47 @@
+.navbar-magenta {
+    background-color: #fa8bbf;
+}
+
+.navbar-toggler {
+    background-color: rgb(245, 163, 224);
+    border: none;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ec1d7e;
+}
+
+.footercolor {
+    background-color: #ec1d7e;
+}
+
+.btnBuscar{
+  background-color: #ec1d7e;
+}
+
+.btnBuscar:hover{
+  background-color: #fa8bbf;
+}
+
+body, html {
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ec1d7e;
+    color: white;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 1.2em;
+    margin-top: 10px;
+}

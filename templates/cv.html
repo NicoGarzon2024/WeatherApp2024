@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/stylecv.css') }}" rel="stylesheet">
+    <title>Currículum Profesional</title>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-magenta shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Currículum Vitae Personal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <!-- Información Personal -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="{{ url_for('static', filename='images/Nicolefoto.jpeg') }}" alt="Nicole foto.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Nicole Carolina Garzon Lozano</h5>
+                        <p class="card-text">
+                            <b>Fecha Nacimiento:</b> 01 enero 1995<br>
+                            <b>Lugar Nacimiento:</b> Guayaquil<br>
+                            <b>Edad:</b> 29 años<br>
+                            <b>Estado Ciivl:</b> Soltera<br>
+                            <b>Dirección:</b> Barrio Garay 3330 y Otavalo <br>
+                            <b>Correo:</b> nicogarzon1572@gmail.com<br>
+                            <b>Teléfono:</b> 0959208871<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 text-center">
+                <h2 id="perfil">Perfil Profesional</h2>
+                <h3>Fortalezas</h3>
+                <p class="fs-5">
+                    Mi habilidad para relacionarme con las personas es mi mayor fortaleza. Me resulta fácil comunicarme 
+                    con casi cualquier persona y, a menudo, sé cómo empatizar con los demás de manera adecuada.<br>
+                </p>
+                <h3>Objetivos</h3>
+                <p class="fs-5">
+                LPersona versátil y capaz de simultanear varias tareas.
+                Con amplia experiencia en entornos laborales  en los que se valora el compromiso y la
+                capacidad de trabajar en equipo. Me caracteriza por mi dinamismo, proactividad
+                y entusiasmo. Poseo buenos conocimientos digitales. Busco desarrollarme profesionalmente.
+                </p>
+            </div>
+        </div>
+
+        <!-- Experiencia Laboral -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 id="experiencia" class="text-center">Experiencia Laboral</h2>
+                <ul class="list-group shadow">
+                    <li class="list-group-item">
+                        <b>Empresa:</b> Asistente Contable<br>
+                        <b>Tiempo: </b> 3 año 2 meses<br>
+                        <b>Cargo:</b> Asistente Contable<br>
+                        <b>Descripción:</b> Elaboración de cotizaciones
+                        Manejo de páginas IESS, SRI
+                        Atención al cliente
+                        Conciliar facturas e identificar discrepancias
+                        Crear y actualizar informes de gastos
+                        Tramitar formularios de reembolso
+                        Preparar depósitos bancarios
+                        Introducir transacciones financieras en bases dedatos internas
+                        Verificar la precisión de hojas de cálculo
+                        Mantener registros financieros digitales y físicos
+                        Emitir facturas para los clientes y sociosexternos, según sea necesario
+                        Revisar y archivar los documentos de nóminas
+                        Participar en las auditorías trimestrales y anuales.
+                    </li>
+                    <li class="list-group-item">
+                        <b>Empresa:</b> Diprelaut S.A.<br>
+                        <b>Tiempo: </b> 4 años 05 meses<br>
+                        <b>Cargo:</b> Asistente de Gerencia<br>
+                        <b>Descripción:</b>  Facturación y cobro
+                        Planificación y organización de proyectos
+                        Programar, capacitar y contratar nuevosempleados.
+                        Manejar las consultas de los clientes, ya que amenudo trabajan 
+                        en una función de cara alcliente.
+                        Supervisar el equipo.
+                        Ayudar a los clientes insatisfechos.
+                        Reemplazo de la administración.
+                        Manejar las quejas de los empleados.
+                        Realizar compras de suministros
+                    </li>
+                    <li class="list-group-item">
+                        <b>Empresa:</b> Nicole Garzon Lozano <br>
+                        <b>Tiempo: </b> 2 año 3 meses - actualidad<br>
+                        <b>Cargo:</b> Comerciante<br>
+                        <b>Descripción:</b> Encargada de ventas, publicidad y despacho de mercaderia .
+                        <br> El Trabajo que realizo lo hago de manera independiente.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Educación -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center">Educación</h2>
+                <div class="row bg-white text-dark text-center shadow">
+                    <div class="col-md-4">
+                        <h4>Primaria</h4>
+                        <p><b>Institución:</b><br>Escuela Fiscal Mixta “Shiri Cacha”</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Secundaria</h4>
+                        <p><b>Institución:</b> <br>Unidad Educativa Fiscal “Otto Arosemena Gomez”</p>
+                        <p><b>Título:</b><br>Bachiller Quimico Biolgica</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Superior</h4>
+                        <p>Universidad  Estatal de Guayaquil
+                        </p>
+                        <p>Cursando 7mo semestre en la carrera de Gestión de  la informacion  Gerencial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center">Habilidades</h2>
+                <div class="mb-3">
+                    <p>Proactiva, trabajo en equipo, Liderazgo</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <p>EXCEL</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%;">100%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center">Idiomas</h2>
+                <table class="table table-striped shadow">
+                    <thead>
+                        <tr>
+                            <th>Idioma</th>
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Inglés</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>Español</td>
+                            <td>Nativo</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footercolor text-center py-3">
+        <p class="mb-3 text-white" id="contacto">Sígueme en mis redes sociales</p>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        <p class="mt-2 text-white">Nicole Carolina Garzon Lozano</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
